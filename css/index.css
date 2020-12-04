@@ -106,6 +106,18 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-blurb {
+    border:1px solid black;
+
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
+.top-blurb .text-container {
+    margin:20px;
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -133,10 +145,16 @@ p {
     justify-content: center;
 }
 
-.middle-content .text-container {
-    width: 100%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+.middle-content .learn-more {
+    border:1px solid black; 
+    display:flex;
+    flex-flow: row wrap;
+
+}
+
+.middle-content .learn-more .box {
+    border:1px solid black;
+    width:48%;
 }
 
 .bottom-content {
