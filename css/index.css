@@ -71,6 +71,19 @@ p {
     margin: 0 auto;
 }
 
+.top-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.top-nav .link {
+    border:1px solid black;
+    /* margin:20px; */
+    margin-bottom:20px;
+    padding:20px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
